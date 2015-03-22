@@ -123,7 +123,7 @@ The features selected for this database come from the accelerometer and gyroscop
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBdAccJerk-XYZ and tBdGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBdAccMag, tGrAccMag, tBdAccJerkMag, tBdGyroMag, tBdGyroJerkMag).  
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBdAcc-XYZ, fBdAccJerk-XYZ, fBdGyro-XYZ, fBdAccJerkMag, fBdGyroMag, fBdGyroJerkMag. (Note the 'f' to indicate frequency domain signals).  
 These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.  
 >- tBdAcc-XYZ 
 >- tGrAcc-XYZ
 >- tBdAccJerk-XYZ
